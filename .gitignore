@@ -1,0 +1,32 @@
+# Entorno
+.env
+.env.local
+*.env
+
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python (si usas MkDocs)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Docker
+*.pid
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build
+site/
+dist/
+build/
