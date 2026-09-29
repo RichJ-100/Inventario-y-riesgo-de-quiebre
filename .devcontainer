@@ -1,0 +1,17 @@
+{
+  "name": "Caso 1 - Inventario y riesgo de quiebre",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "ms-azuretools.vscode-docker",
+        "vmware.vscode-spring-boot"
+      ]
+    }
+  },
+  "forwardPorts": [8080, 5432],
+  "postCreateCommand": "mvn clean install -DskipTests"
+}
